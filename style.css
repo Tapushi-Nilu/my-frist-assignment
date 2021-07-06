@@ -8,6 +8,8 @@ body {
 }
 .header {
   width: 100%;
+  position: fixed;
+  background-color: #fff;
 }
 ul {
   display: flex;
@@ -182,13 +184,13 @@ ul li a {
   display: flex;
   margin: 15px 0px;
 }
-.icon a {
-  color: #8ec038;
-  font-size: 43px;
+.icon img {
+  height: 40px;
+  width: 40px;
 }
 .icon h4 {
   padding: 0px 24px;
-  margin-top: 14px;
+  margin-top: 8px;
   font-size: 17px;
   color: #000000c7;
 }
