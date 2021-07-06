@@ -8,8 +8,6 @@ body {
 }
 .header {
   width: 100%;
-  position: fixed;
-  background-color: #fff;
 }
 ul {
   display: flex;
