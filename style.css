@@ -154,7 +154,7 @@ ul li a {
   background-size: cover;
   padding: 100px;
   position: relative;
-  background-color: #8ec038d9;
+  background-color: #8ec038;
 }
 .counter-box {
   border-radius: 20px;
@@ -177,4 +177,102 @@ ul li a {
   font-size: 14px;
   color: #000000a8;
   margin-top: -17px;
+}
+.icon {
+  display: flex;
+  margin: 15px 0px;
+}
+.icon a {
+  color: #8ec038;
+  font-size: 43px;
+}
+.icon h4 {
+  padding: 0px 24px;
+  margin-top: 14px;
+  font-size: 17px;
+  color: #000000c7;
+}
+.contact-section {
+  display: flex;
+  padding: 100px;
+  background-color: #dddddd54;
+}
+.from-details {
+  width: 50%;
+  margin-top: -20px;
+}
+.from-details h1 {
+  font-size: 50px;
+  color: #000;
+}
+.from-details p {
+  color: dimgray;
+  line-height: 28px;
+  margin-top: -12px;
+  margin-bottom: 36px;
+}
+.contact-button {
+  width: 100%;
+  margin-top: 30px;
+}
+.contact-button a {
+  background-color: #da2424;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 50px;
+  color: #fff;
+  border-radius: 33px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contact-from {
+  background-image: url(img/form-corn-bg-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 50px;
+  position: relative;
+  background-color: #8ec038d9;
+  border-radius: 30px;
+  margin-left: 70px;
+}
+
+input {
+  padding: 24px 30px;
+  margin: 10px;
+  border-radius: 33px;
+  border: none;
+  background: #fff;
+  width: 293px;
+  font-size: 14px;
+}
+.submit-button {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+.submit-button a {
+  background-color: #da2424;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 22px 133px;
+  color: #fff;
+  border-radius: 33px;
+  font-size: 18px;
+  font-weight: 700;
+}
+footer {
+  text-align: center;
+  background-image: url(img/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+  background-color: #292d35;
+}
+footer h1 {
+  font-size: 45px;
+  color: #fff;
+}
+footer p {
+  color: dimgray;
 }
