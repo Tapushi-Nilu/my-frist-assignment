@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+body {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+li {
+  list-style: none;
+  padding: 23px 0px;
+}
+ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: #000000b8;
+  font-size: 19px;
+  font-weight: 600;
+}
+.banner-section {
+  background-image: url(img/health-slider.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  background-size: cover;
+}
+.banner-left {
+  width: 100%;
+  padding-left: 10%;
+  padding-top: 45px;
+}
+.banner-left h1 {
+  font-size: 66px;
+  color: #292d35;
+  font-weight: 700;
+  font-family: "Fira Sans", sans-serif;
+}
+.banner-left p {
+  font-size: 19px;
+  color: #575a61;
+  margin-top: -20px;
+  padding-right: 47px;
+}
+.color {
+  color: #8ec038;
+}
+.button-link {
+  margin-top: 60px;
+}
+.button-link a {
+  padding: 10px 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: linear-gradient(45deg, #bde774, #8ec038);
+  padding: 20px 44px;
+  line-height: 1.4em;
+  min-width: 200px;
+  font-size: 16px;
+  border-radius: 36px;
+  color: #fff;
+  box-shadow: 5px 5px 79px #aa9494;
+}
+/*about-section-start*/
+
+.about-section {
+  display: flex;
+  padding: 100px;
+  background-image: url(img/Frame\ 56.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-left {
+  width: 100%;
+}
+.about-left img {
+  border-radius: 50px;
+  width: 80%;
+}
+
+.about-right {
+  width: 100%;
+  padding: 50px;
+}
+.about-right h2 {
+  color: #8ec038;
+  font-size: 50px;
+}
+.about-right p {
+  color: dimgray;
+  font-size: 19px;
+}
+.heading {
+  text-align: center;
+  width: 100%;
+}
+.heading h4 {
+  font-family: "Dancing Script", cursive;
+  font-size: 23px;
+  margin-bottom: -8px;
+  color: #8ec038;
+}
+.heading h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  color: #000000c4;
+}
+.heading p {
+  color: #000000a6;
+}
+.recipe-section {
+  background-image: url(img/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+}
+.img-box {
+  display: flex;
+  padding: 100px;
+}
+.img-box img {
+  width: 100%;
+  border-radius: 30px;
+}
+.box {
+  background-color: #fff;
+  box-shadow: 5px 5px 20px #808080a3;
+  padding: 29px;
+  margin: 20px;
+  margin-top: -29px;
+  text-align: center;
+}
+.box h3 {
+  color: #8ec038;
+  font-size: 22px;
+}
+.box p {
+  color: dimgrey;
+  font-size: 16px;
+}
+.counter-section {
+  display: flex;
+  justify-content: center;
+  background-image: url(img/veg_pattern_01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  position: relative;
+  background-color: #8ec038d9;
+}
+.counter-box {
+  border-radius: 20px;
+  box-shadow: 10px -1px 31px gray;
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+}
+.counter {
+  background-color: #fff;
+  width: 270px;
+  text-align: center;
+  padding: 53px 90px;
+}
+.counter h1 {
+  font-size: 39px;
+  color: #000000c4;
+}
+.counter p {
+  font-size: 14px;
+  color: #000000a8;
+  margin-top: -17px;
+}
